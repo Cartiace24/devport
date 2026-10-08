@@ -1,0 +1,5 @@
+import { ArrowUpRight, Github, Linkedin } from 'lucide-react'
+import { Link } from 'react-router-dom'
+export default function Footer() {
+  return <footer className="site-footer"><div className="footer-top"><span className="eyebrow">A good thing starts with a hello</span><a className="footer-hello" href="mailto:hello@example.com">Let’s make<br/>something matter <ArrowUpRight size={22}/></a></div><div className="footer-bottom"><Link className="wordmark" to="/"><span className="mark">YN</span><span>Your Name<span className="wordmark-role"> / developer</span></span></Link><span className="footer-note">Independent by nature. Collaborative by default.</span><div className="social-links"><a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={16}/></a><a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin size={16}/></a><a href="mailto:hello@example.com" aria-label="Email"><ArrowUpRight size={16}/></a></div><span className="copyright">© 2026</span></div></footer>
+}
